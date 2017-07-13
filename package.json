@@ -1,0 +1,33 @@
+{
+  "name": "react-native-web-responsive",
+  "version": "1.0.0",
+  "description": "Universal media queries for React Native and web",
+  "main": "lib/index.js",
+  "module": "es/index.web.js",
+  "react-native": "src/index.native.js",
+  "repository": "https://github.com/kiurchv/react-native-web-responsive",
+  "author": "Myroslav Kiurchev <kiurchv@gmail.com> (https://github.com/kiurchv/)",
+  "license": "MIT",
+  "keywords": [
+    "react",
+    "react-native",
+    "web",
+    "responsive",
+    "media-query"
+  ],
+  "dependencies": {
+    "react-native-responsive": "^1.0.0",
+    "react-responsive": "^1.3.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0"
+  },
+  "scripts": {
+    "build": "npm run build:es && npm run build:cjs",
+    "build:es": "BABEL_ENV=cjs babel src/index.web.js --out-file lib/index.js",
+    "build:cjs": "babel src/index.web.js --out-file es/index.js",
+    "prepublish": "npm run build"
+  }
+}
