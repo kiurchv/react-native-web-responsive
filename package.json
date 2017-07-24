@@ -1,6 +1,6 @@
 {
   "name": "react-native-web-responsive",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Universal media queries for React Native and web",
   "main": "lib/index.js",
   "module": "es/index.web.js",
@@ -25,7 +25,10 @@
   },
   "devDependencies": {
     "babel-cli": "^6.24.1",
+    "babel-plugin-transform-es2015-block-scoping": "^6.24.1",
+    "babel-plugin-transform-es2015-destructuring": "^6.23.0",
     "babel-plugin-transform-es2015-modules-commonjs": "^6.24.1",
+    "babel-plugin-transform-es2015-shorthand-properties": "^6.24.1",
     "babel-plugin-transform-object-rest-spread": "^6.23.0"
   },
   "scripts": {

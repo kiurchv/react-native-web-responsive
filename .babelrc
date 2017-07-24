@@ -1,5 +1,8 @@
 {
   "plugins": [
+    "transform-es2015-block-scoping",
+    "transform-es2015-destructuring",
+    "transform-es2015-shorthand-properties",
     ["transform-object-rest-spread", { "useBuiltIns": true }]
   ],
   "env": {
