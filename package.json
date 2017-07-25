@@ -1,13 +1,14 @@
 {
   "name": "react-native-web-responsive",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Universal media queries for React Native and web",
   "main": "lib/index.js",
   "module": "es/index.web.js",
   "react-native": "src/index.native.js",
   "files": [
     "es",
-    "lib"
+    "lib",
+    "src/index.native.js"
   ],
   "repository": "https://github.com/kiurchv/react-native-web-responsive",
   "author": "Myroslav Kiurchev <kiurchv@gmail.com> (https://github.com/kiurchv/)",
