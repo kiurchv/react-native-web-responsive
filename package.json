@@ -1,9 +1,9 @@
 {
   "name": "react-native-web-responsive",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Universal media queries for React Native and web",
   "main": "lib/index.js",
-  "module": "es/index.web.js",
+  "module": "es/index.js",
   "react-native": "src/index.native.js",
   "files": [
     "es",
